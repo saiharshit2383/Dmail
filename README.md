@@ -30,9 +30,10 @@ At the core of the application is the Ethereum blockchain, which acts as a decen
 
 Smart contracts are self-executing contracts with the terms of the agreement directly written into code. These contracts are deployed on the Ethereum blockchain and can be interacted with via decentralized applications (dApps). Solidity, the programming language used to write smart contracts, allows us to define these contracts and the logic that governs them.
 
-### 2. **Supabase for User Authentication**
+### 2. ** Supabase for storing User Data **
+Supabase is used for user authentication and managing user data. When a user signs up or logs in, their credentials are securely managed by Supabase, and their session is maintained through tokens. Supabase also stores user-related metadata, such as email preferences, and interacts with the Ethereum blockchain to manage email transactions securely.
 
-Supabase is used for user authentication and managing user data. When a user signs up or logs in, their credentials are securely managed by Supabase, and their session is maintained through JWT tokens. Supabase also stores user-related metadata, such as email preferences, and interacts with the Ethereum blockchain to manage email transactions securely.
+
 
 ### 3. **IPFS and Pinata API for File Storage**
 

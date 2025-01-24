@@ -71,5 +71,10 @@ Ensure you have the following installed:
 
 1. **Clone the repository**:
    ```bash
-   https://github.com/saiharshit2383/Dmail.git
-   cd dmail
+   git clone https://github.com/saiharshit2383/Dmail.git
+
+2. **Deployment steps**:
+    cd dmail
+    npm install
+    npm run dev
+   

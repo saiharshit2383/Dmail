@@ -76,8 +76,8 @@ Ensure you have the following installed:
 2. **Deployment steps**:
     ```bash
     cd dmail
-    ```bash
+   
     npm install
-    ```bash
+
     npm run dev
    
